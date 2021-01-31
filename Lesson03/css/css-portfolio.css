@@ -1,0 +1,54 @@
+
+
+/*Global Styles */
+body { 
+color: white;
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;}
+
+h2 { color: red;
+padding-left: 4px;}
+
+h3{padding-left: 4px;
+color: royalblue;
+text-decoration: underline;}
+
+p{padding-left: 4px;}
+
+img {width: 300px;
+}
+
+a { color: white;} 
+a:hover { text-decoration: none;
+}
+
+li{list-style: circle}
+
+
+/*Profile*/
+.header 
+{      background-color: #C30734;
+        color: white;
+        padding: 4px;
+        margin: 4px;
+        text-align: center;}
+
+/*Projects */
+.projects { 
+    background:#1A1A1D; }
+
+/*Work Experiance*/
+.work {
+    background: #1A1A1D;
+    border-radius: 4px;}
+
+/*education*/
+.education {
+    background: #1A1A1D;}
+
+/*contact info footer */
+footer {background: #1A1A1D;
+color: #C30734;
+border-style: dotted;
+padding-left: 8PX;}
+
+
