@@ -1,54 +1,126 @@
 
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {box-sizing: inherit;}
 
-/*Global Styles */
-body { 
-color: white;
-font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;}
-
-h2 { color: red;
-padding-left: 4px;}
-
-h3{padding-left: 4px;
-color: royalblue;
-text-decoration: underline;}
-
-p{padding-left: 4px;}
-
-img {width: 300px;
+body { color:white;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  line-height: 2;;
 }
 
-a { color: white;} 
-a:hover { text-decoration: none;
+.clear{
+  clear: both;}
+
+
+img {
+  width: 300px;
+  float: left;
+  padding: 16px;}
+
+a {color:yellow;
+}
+a:hover {text-decoration: none;
 }
 
-li{list-style: circle}
+.float-right{
+  float: right;
+}
+/*Typography*/
+
+h1, h2 {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;}
+
+  h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+  font: weight 600px;
+  color: white;
+  text-transform: uppercase;
+}
+
+h3{
+  color: white;
+  font-style: italic;
+}
 
 
-/*Profile*/
-.header 
-{      background-color: #C30734;
-        color: white;
-        padding: 4px;
-        margin: 4px;
-        text-align: center;}
+.content-wrap {
+  width: 650px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
 
-/*Projects */
-.projects { 
-    background:#1A1A1D; }
+.header-text {
+    color: white;
+    font-style: oblique;
+    padding: 8px;
+}
 
-/*Work Experiance*/
+.underline{
+  text-decoration: underline;
+}
+
+/* Profile*/
+header {
+  background:black;
+  color: pink;
+  text-transform: uppercase;
+  padding-bottom: -90px;
+}
+
+
+/*projects*/
+.projects {
+  background: linear-gradient(#ac6484, #9198e5); 
+  color: white;
+}
+
+
+/* work*/
 .work {
-    background: #1A1A1D;
-    border-radius: 4px;}
-
+  background: linear-gradient(#9198e5, black); 
+}
 /*education*/
-.education {
-    background: #1A1A1D;}
-
-/*contact info footer */
-footer {background: #1A1A1D;
-color: #C30734;
-border-style: dotted;
-padding-left: 8PX;}
+.school {
+background: linear-gradient(black,#ac6484); 
+overflow: hidden;}
 
 
+/*contact*/
+footer {
+  /*background: linear-gradient(#ac6484,black);*/
+  background: black;
+  color: pink;
+  font-weight: bold;
+  /*border-top: 9px dashed;
+    border-style: dashed;*/
+}
+
+.footer-image{
+  width: 130px;
+  align-items: center;
+}
+
+/*Grabed code from codepen to create a wavy style, ended up altering for a box in box look
+
+.box-box {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: auto;
+  border-radius: 5px;
+  background: black;
+}
+*/
